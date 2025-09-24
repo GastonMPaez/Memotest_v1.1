@@ -1,9 +1,8 @@
 {
-"devDependencies": {
-  "serve": "^14.2.5"
-},
-"scripts": {
-  "start": "serve -l 3000"
-}
-
+  "devDependencies": {
+    "serve": "^14.2.5"
+  },
+  "scripts": {
+    "start": "serve -l 3000"
+  }
 }
