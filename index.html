@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memotest v1.1</title>
+    <link rel="icon" type="image/ico" href="resources/logo/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="title">Memotest v1.1</h1>
+
+    <div id="main-container">
+        <div id="game-area">
+            <div id="tablero"></div>
+        </div>
+
+        <div id="stats">
+            <h2>Estadísticas</h2>
+            <p>Movimientos: <span id="movimiento">0</span></p>
+            <p>Pares descubiertos: <span id="pares-descubiertos">0</span></p>
+            <p>Tiempo: <span id="tiempo">0</span></p>
+        </div>
+    </div>
+
+    <div id="controles">
+        <button id="btnNormal">Normal</button>
+        <button id="btnDificil">Dificil</button>
+        <button id="btnReiniciar">Reiniciar</button>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h2>¡Juego Completado!</h2>
+            <p id="modalMsg"></p>
+            <button onclick="location.reload()">Jugar de nuevo</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Gaston Paez. Todos los derechos reservados.</p>
+    </footer>
+
+    <script type="module" src="js/game.js"></script>
+</body>
+
+</html>
